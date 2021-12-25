@@ -9,6 +9,11 @@ public class TableExample {
         short X = 640;
         short Y = 480;
         JFrame f = new JFrame("Excel Worker");
+        //
+        JButton add_button = new JButton("Add");
+        add_button.setBounds(X-40, Y-40, 100, 20);
+        f.add(add_button);
+        //
         String data[][]={
                 {"Amit", "", "", ""},
                 {"Jai", "", "", ""},
